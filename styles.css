@@ -1,0 +1,108 @@
+li{
+    display: inline;
+    border: 4px solid rgb(231, 200, 20);
+    text-align: center;
+    font-size: 60px;   
+    width: 50px; 
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+    word-spacing: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+.title{
+    text-decoration: underline;
+    font-size: 40px;   
+    font-family: Arial, Helvetica, sans-serif;
+    color:blueviolet;
+
+}
+   /* unvisited link */
+      a:link {
+        color: tomato;
+    }
+    /* visited link */
+    a:visited {
+        color: blueviolet;
+    }
+
+    /* mouse over element */
+    a:hover {
+        color: rgb(0, 255, 0);
+    } 
+        /* selected link */
+  a:active{
+        color: blueviolet;
+    }
+    h1 {
+         font-family: roboto;
+    }
+    .title2{
+        text-decoration: underline;
+        font-size: 35px;   
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:rgb(53, 190, 110)
+    
+    }
+    .bord{
+        border: 3px solid blue;
+    }
+    .cadre{
+        border: 2px solid red;
+        padding: 20px;
+    }
+    .cadre_input{
+        border: 2px solid red;
+        padding: 20px;
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        color: blue;
+        font-size: 22px;
+
+       
+    }
+    #bouton{
+        
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 40px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+    }
+    .img{
+        width: 650px;
+    }
+    .video{
+        width: 800px;
+        height: 400px;
+    }
+    table,tr,td,th{
+       border: 4px solid black;
+       text-align: center;
+       margin: 0 auto;
+       width: 1000px;
+       height: 40px;
+    }
+    th {
+        background-color: #27ce7a;
+        color: white;
+      }
+      h2{
+        color:aquamarine;
+      }
+      footer {
+        background-color: #615e5e; 
+        color: #fff; 
+        text-align: center; 
+        padding: 20px; 
+        font-size: 22px;
+    }
